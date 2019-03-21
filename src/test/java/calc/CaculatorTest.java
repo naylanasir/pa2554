@@ -27,7 +27,7 @@ public class CaculatorTest {
 	@Test
 	public void testMul() {
 		CalculatorMain acalc =  new CalculatorMain();
-		assertEquals(5, acalc.mull(3,2));
+		assertEquals(6, acalc.mull(3,2));
 	}
 
 }
