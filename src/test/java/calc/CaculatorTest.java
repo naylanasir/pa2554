@@ -13,21 +13,28 @@ public class CaculatorTest {
 		calc = new CalculatorMain();
 	}
 	
-	
-	@Test
-	public void testSub() {
-		CalculatorMain scalc =  new CalculatorMain();
-		assertEquals(1, scalc.sub(3,2));
-	}
 	@Test
 	public void testAdd() {
-		CalculatorMain acalc =  new CalculatorMain();
-		assertEquals(5, acalc.add(3,2));
+		assertEquals(5, calc.add(3,2));
+	}
+	@Test
+	public void testSub() {
+		assertEquals(1, calc.sub(3,2));
 	}
 	@Test
 	public void testMul() {
-		CalculatorMain acalc =  new CalculatorMain();
-		assertEquals(6, acalc.mul(3,2));
+		assertEquals(6, calc.mul(3,2));
 	}
-
+	@Test
+	public void testDiv() {
+		assertEquals(1, calc.div(2,2));
+	}
+	@Test
+	public void testDivByZero() {
+		assertEquals(0, calc.div(3,0));
+	}
+	@Test
+	public void testPresedence() {
+		assertEquals(30, calc.add(calc.mul(5, 5), calc.div(10, 2)));
+	}
 }
