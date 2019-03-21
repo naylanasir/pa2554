@@ -17,7 +17,7 @@ public class CaculatorTest {
 	@Test
 	public void testSub() {
 		CalculatorMain scalc =  new CalculatorMain();
-		assertEquals(1, scalc.subb(3,2));
+		assertEquals(1, scalc.sub(3,2));
 	}
 	@Test
 	public void testAdd() {
@@ -27,7 +27,7 @@ public class CaculatorTest {
 	@Test
 	public void testMul() {
 		CalculatorMain acalc =  new CalculatorMain();
-		assertEquals(6, acalc.mull(3,2));
+		assertEquals(6, acalc.mul(3,2));
 	}
 
 }
