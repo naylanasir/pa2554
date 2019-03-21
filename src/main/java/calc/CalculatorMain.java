@@ -11,6 +11,6 @@ public class CalculatorMain {
 		return a-b;
 	}
 	public int mul(int a, int b){
-		return null;
+		return 0;
 	}
 }
