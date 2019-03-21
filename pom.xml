@@ -4,5 +4,12 @@
   <artifactId>Calculator</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>Calculator</name>
-  <description>A simple calaculator application</description>
+  <description>A simple calaculator application</description>  
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit-dep</artifactId>
+    <version>4.8.2</version>
+    <scope>test</scope>
+</dependency>
+
 </project>
