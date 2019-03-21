@@ -17,7 +17,7 @@ public class CaculatorTest {
 	public void testAdd() {
 		assertEquals(5, calc.add(3,2));
 	}
-	@Test
+/*	@Test
 	public void testSub() {
 		assertEquals(1, calc.sub(3,2));
 	}
@@ -36,5 +36,5 @@ public class CaculatorTest {
 	@Test
 	public void testPresedence() {
 		assertEquals(30, calc.add(calc.mul(5, 5), calc.div(10, 2)));
-	}
+	}*/
 }
