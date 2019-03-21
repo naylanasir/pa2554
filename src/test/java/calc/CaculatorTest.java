@@ -24,5 +24,10 @@ public class CaculatorTest {
 		CalculatorMain acalc =  new CalculatorMain();
 		assertEquals(5, acalc.add(3,2));
 	}
+	@Test
+	public void testMul() {
+		CalculatorMain acalc =  new CalculatorMain();
+		assertEquals(5, acalc.mull(3,2));
+	}
 
 }
