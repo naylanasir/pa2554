@@ -29,5 +29,11 @@ public class CaculatorTest {
 		CalculatorMain calc =  new CalculatorMain();
 		assertEquals(6, calc.mul(3,2));
 	}
+        @ Test
+          public void testDiv() {
+          CalculatorMain calc = new CalculatorMain();
+          assertEquals(0, calc.div(3,0));
+        }
+
 
 }
