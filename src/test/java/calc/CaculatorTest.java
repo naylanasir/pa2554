@@ -19,11 +19,11 @@ public class CaculatorTest {
 	//	CalculatorMain calc =  new CalculatorMain();
 	//	assertEquals(1, calc.sub(3,2));
 	//}
-	//@Test
-	// public void testAdd() {
-	//	CalculatorMain calc =  new CalculatorMain();
-	//	assertEquals(5, calc.add(3,2));
-	// }
+	@Test
+	 public void testAdd() {
+		CalculatorMain calc =  new CalculatorMain();
+		assertEquals(5, calc.add(3,2));
+	 }
 	//@Test
 	//public void testMul() {
 	//	CalculatorMain calc =  new CalculatorMain();
