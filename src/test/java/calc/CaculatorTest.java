@@ -46,17 +46,17 @@ public class CaculatorTest {
 	}
 	// unit test for division by zero
 @Test
-	public void testDivByZero() {
+	public void test__Div_By_Zero() {
 		assertEquals(0, calc.div(3,0));
 	}
 	// integration test to check operator precedence
 @Test
-	public void testPrecedence() {
+	public void test_Precedence() {
 		assertEquals(30, calc.add(calc.mul(5,5), calc.div(10, 2)));
 	}
 // integration test for sub, mul and div method
 @Test
-	public void testintegration() {
+	public void test_integration() {
 		assertEquals(20, calc.sub(calc.mul(5,5), calc.div(10, 2)));
 	}
 
