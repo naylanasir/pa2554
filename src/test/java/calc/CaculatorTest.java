@@ -49,7 +49,7 @@ public class CaculatorTest {
 @Test
 	public void testPresedence() {
 		assertEquals(30, calc.add(calc.mul(5,5), calc.div(10, 2)));}
-// integration test for sub, mul and div methods
+// integration test for sub, mul and div method
 @Test
 	public void testintegration() {
 		assertEquals(20, calc.sub(calc.mul(5,5), calc.div(10, 2)));}
