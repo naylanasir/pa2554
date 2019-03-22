@@ -51,7 +51,7 @@ public class CaculatorTest {
 	}
 	// integration test to check operator precedence
 @Test
-	public void testPresedence() {
+	public void testPrecedence() {
 		assertEquals(30, calc.add(calc.mul(5,5), calc.div(10, 2)));
 	}
 // integration test for sub, mul and div method
