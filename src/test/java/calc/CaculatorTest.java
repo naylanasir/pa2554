@@ -48,6 +48,11 @@ public class CaculatorTest {
 	
 @Test
 	public void testPresedence() {
-		assertEquals(30, calc.add(calc.mul(5,5), calc.div(10, 2)));
-	}
+		assertEquals(30, calc.add(calc.mul(5,5), calc.div(10, 2)));}
+
+@Test
+	public void testIntegrate() {
+		assertEquals(20, calc.sub(calc.mul(5,5), calc.div(10, 2)));}
+
+
 }
