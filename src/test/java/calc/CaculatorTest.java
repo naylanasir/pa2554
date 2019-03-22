@@ -16,18 +16,18 @@ public class CaculatorTest {
 	
 	@Test
 	public void testSub() {
-		CalculatorMain scalc =  new CalculatorMain();
-		assertEquals(1, scalc.sub(3,2));
+		CalculatorMain calc =  new CalculatorMain();
+		assertEquals(1, calc.sub(3,2));
 	}
 	@Test
 	public void testAdd() {
-		CalculatorMain acalc =  new CalculatorMain();
-		assertEquals(5, acalc.add(3,2));
+		CalculatorMain calc =  new CalculatorMain();
+		assertEquals(5, calc.add(3,2));
 	}
 	@Test
 	public void testMul() {
-		CalculatorMain acalc =  new CalculatorMain();
-		assertEquals(6, acalc.mul(3,2));
+		CalculatorMain calc =  new CalculatorMain();
+		assertEquals(6, calc.mul(3,2));
 	}
 
 }
