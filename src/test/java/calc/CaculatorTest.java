@@ -9,7 +9,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 
-public class CalculatorTest {
+public class CaculatorTest {
 	private static CalculatorMain calc;
 
 
@@ -48,6 +48,6 @@ public class CalculatorTest {
 	
 @Test
 	public void testPresedence() {
-		assertEquals(30, calc.add(calc.mul(5, 5), calc.div(10, 2)));
+		assertEquals(30, calc.add(calc.mul(5,5), calc.div(10, 2)));
 	}
 }
